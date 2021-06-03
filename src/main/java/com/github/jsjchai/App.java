@@ -7,8 +7,8 @@ package com.github.jsjchai;
  */
 public class App {
 
-    public void sayHello() {
-        System.out.println("Hello World!");
+    public static String sayHello() {
+        return  "Hello World!";
     }
 
     @Override
@@ -18,7 +18,6 @@ public class App {
 
     public static void main(String[] args) {
         App app = new App();
-        app.sayHello();
         System.out.println(app);
     }
 }
